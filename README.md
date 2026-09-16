@@ -1,1 +1,0 @@
-# aplied-digital-media
