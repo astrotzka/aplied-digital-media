@@ -1,0 +1,10 @@
+let dest = document.getElementById("element1");
+let output = "";
+output += "<table>"
+output += "<tr><th>Univeristy</th><th>Contact</th><th>Country</th></tr>"
+output += "<tr><td>Atu</td><td>Andrei</td><td>ireland</td></tr>"
+output += "<tr><td>NUIG</td><td>Not me</td><td>ireland</td></tr>"
+output += "<tr><td>HARVARD</td><td>EINSTEIN 2.0</td><td>MERICAAAAAAAAA FUCL YEAAAAAAAAAAA</td></tr>"
+output += "<tr><td>Tel Aviv</td><td>Epstein</td><td>God promiseland</td></tr>"
+output += "</table>"
+dest.innerHTML = output;
