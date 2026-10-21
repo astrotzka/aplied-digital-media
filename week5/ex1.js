@@ -1,0 +1,1 @@
+document.getElementById("para1").textContent = "Good day tp you";
