@@ -6,9 +6,9 @@ let rounded_number = 0;
 
 
 for(let euro = 1.00; euro <= 10.00;euro ++){
-    number += euro + " euro is worth " + (euro*dolla) + " dollars<br>";
+    number += euro + " euro is worth " + (euro*dolla).toFixed(2) + " dollars<br>";
     eurost = "euros";
-    //rounded_number = Math.round(number * 100) / 100
+    
 
 }
 document.getElementById("output").innerHTML = number;
